@@ -5,8 +5,8 @@ def start_game(number):
     count = 0
     while True:
         try:
-            guess=int(input("pick a number between 1-10:  "))
-            
+            guess = int(input("pick a number between 1-10:  "))
+
         except ValueError:
             print("Plase enter an integer")
             continue
